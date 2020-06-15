@@ -60,6 +60,11 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-size: 17px;
+}
+
+input[type=submit]:hover {
+    background-color: #0dbfa4;
 }
 
 #signup {
@@ -81,6 +86,12 @@ input[type=submit] {
     cursor: pointer;
     border: none;
     background-color: #0FDCBE;
+    text-align: center;
+    text-decoration: none;
+}
+
+#signupbutton:focus, :active, :visited {
+    color: black;
 }
 
 #footer {
