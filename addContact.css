@@ -14,30 +14,17 @@
     margin-right: 1%;
 }
 
-#logolarge {
-    width: 400px;
-    float: right;
-    margin-right: 13%;
-    margin-top: 5%;
-}
-
 body {
     background: #0FDCBE;
     margin: 0;
     font-family: Helvetica, Arial, sans-serif;
-  }
-
-#leftsection {
-    padding: 3%;
 }
 
-
-#signin {
+#addcontact {
     padding: 1px 20px 20px 20px;
     background: white;
     border-radius: 25px;
-    margin-left: 5%;
-    margin-bottom: 2%;
+    margin: 3% 30%;
     width: 40%;
 }
 
@@ -50,7 +37,7 @@ input[type=text], select {
     border-radius: 4px;
     box-sizing: border-box;
 }
-  
+
 input[type=submit] {
     width: 100%;
     background-color: #0FDCBE;
@@ -64,37 +51,6 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #0dbfa4;
-}
-
-#signup {
-    padding: 20px;
-    background: white;
-    border-radius: 25px;
-    margin-left: 5%;
-    width: 40%;
-}
-
-#signupbutton {
-    float: right;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin: 12px;
-    border-radius: 4px;
-    box-sizing: border-box;
-    width: 30%;
-    cursor: pointer;
-    border: none;
-    background-color: #0FDCBE;
-    text-align: center;
-    text-decoration: none;
-}
-
-#signupbutton:focus, :active, :visited {
-    color: black;
-}
-
-#signupbutton:hover {
     background-color: #0dbfa4;
 }
 
@@ -121,19 +77,9 @@ input[type=submit]:hover {
     clear: both;
   }
 
-
 @media (max-width: 1100px) {
-      #logolarge{
-            display: none;
-      }
-
-      #signin {
+    #addcontact {
         margin: 1.5% 20%;
         width: 60%;
-      }
-
-      #signup {
-        margin: 2% 20%;
-        width: 60%;
-      }
-  }
+    }
+}
