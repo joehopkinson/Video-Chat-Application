@@ -107,9 +107,18 @@ input[type=submit] {
   }
 
 
-@media (max-width: 1100px) 
-  {
+@media (max-width: 1100px) {
       #logolarge{
             display: none;
+      }
+
+      #signin {
+        margin: 1.5% 20%;
+        width: 60%;
+      }
+
+      #signup {
+        margin: 2% 20%;
+        width: 60%;
       }
   }
