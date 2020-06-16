@@ -131,3 +131,46 @@ ul li:hover {
     display: table;
     clear: both;
   }
+
+  /* side-panels */
+.sidepanel  {
+    width: 0;
+    position:fixed;
+    bottom:0;
+    right:0;
+    z-index: 1;
+    height: 250px;
+    background-color: #0FDCBE;
+    overflow-x: hidden;
+    transition: 0.2s;
+    padding-top: 60px;
+}
+
+.sidepanel p {
+    padding: 8px 8px 8px 32px;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.2s;
+}
+
+button {
+    font-size: 15px;
+    /* cursor: pointer; */
+    background-color: #0FDCBE;
+    color: black;
+    outline-color: black;
+    padding: 5px 10px;
+    border: none;
+}
+
+button:hover {
+    background-color: #0dbfa4;
+}
+
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
